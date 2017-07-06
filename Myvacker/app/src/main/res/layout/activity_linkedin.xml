@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.prakriti.myvacker.Linkedin">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="490dp"
+        android:id="@+id/linkwebsite"></WebView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="An ISO 9001:2015 and OSHAS 18001:2007 certified company"
+        android:textSize="10dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="55dp"/>
+
+</LinearLayout>

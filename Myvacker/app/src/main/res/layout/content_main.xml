@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.prakriti.myvacker.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+
+    <EditText android:id="@+id/inputSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:paddingLeft="130dp"
+        android:hint="Search websites.."
+        android:textSize="15dp"
+        android:inputType="textVisiblePassword"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:id="@+id/websitelist"
+        android:paddingLeft="20dp"
+        android:paddingTop="16dp"
+        android:fadeScrollbars="false"/>
+
+    <com.synnapps.carouselview.CarouselView
+        android:layout_width="275dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_height="255dp"
+        android:id="@+id/carouselview">
+    </com.synnapps.carouselview.CarouselView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="An ISO 9001:2015 and OSHAS 18001:2007 certified company"
+        android:textSize="10dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="50dp"/>
+
+
+
+
+</LinearLayout>

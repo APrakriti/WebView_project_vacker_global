@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.prakriti.myvacker.AboutUs">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/vg_grup"
+        app:srcCompat="@drawable/vg_group"/>
+    <WebView
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/vg"
+            android:gravity="fill_horizontal"
+            android:fadeScrollbars="false"
+            style="@style/description"
+            android:textSize="15dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:id="@+id/copyryt"
+            app:srcCompat="@drawable/copyright" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:id="@+id/txtcopy"
+            android:layout_height="20dp"
+            android:paddingTop="4dp"
+            android:text="Vacker Global v.1.0, Dubai UAE"
+            android:textStyle="bold"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

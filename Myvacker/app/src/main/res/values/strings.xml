@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Vacker Global</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="description">Vacker Global is a Group of Companies that is involved in Industrial, Process and PLC automation, Temperature and Humidity Management Solutions and Engineering solutions.Vacker had its humble beginning from its first office in UAE.Presently in UAE,Kuwait,Oman,USA and India. We believe in carrying out our operations to achieve customer satisfaction through employee satisfaction without ever comprising on ethices and integrity. We are proud to declare that we have been so far successful in meeting and maintaining our core values.
+    </string>
+    <string name="text">
+    <![CDATA[
+<html>
+ <head></head>
+ <body style="text-align:justify;color:black;background-colorwhite;">
+  Vacker Global is a Group of Companies that is involved in Industrial, Process and PLC automation, Temperature and Humidity Management Solutions and Engineering solutions.Vacker had its humble beginning from its first office in UAE.Presently in UAE,Kuwait,Oman,USA and India. We believe in carrying out our operations to achieve customer satisfaction through employee satisfaction without ever comprising on ethices and integrity. We are proud to declare that we have been so far successful in meeting and maintaining our core values.
+ </body>
+</html>
+]]>
+    </string>
+</resources>
